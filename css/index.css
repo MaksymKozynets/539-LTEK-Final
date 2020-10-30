@@ -55,6 +55,13 @@ grid-gap: 5px;
     width: 100%;
 }
 
+main .projects {
+    display: flex;
+    flex-direction: column;
+}
+.projects .card-body  button  {
+    align-self: flex-end;
+}
 
 @media (min-width:760px) {
     header .header-nav{
@@ -66,10 +73,3 @@ grid-gap: 5px;
         align-items: center;
     }
 }
-@media (min-width:660px) {
-    .project-list {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 5px;
-    }
-}    

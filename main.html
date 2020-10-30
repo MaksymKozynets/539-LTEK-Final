@@ -27,7 +27,7 @@
             </div>    
         </div>    
    </header>
-   <main>
+   <main class="container">
         <article class="content">
             <!--About us-->
             <div class="about-us">
@@ -49,14 +49,99 @@
             <div class="projects">
                 <h2 id="projects">Реалізовані проекти</h2>
                 <!--Cards-->
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="row">
+                    <div class="card col-12 col-sm-12 col-md-6 col-lg-6">
+                        <img src="img/kotelnaboryslav.jpg" class="card-img-top" alt="Борислав">
+                        <div class="card-body">
+                            <h3 class="card-title">КЗ ЛОР Бориславська ЗСШ І-ІІІ ступенів</h3>
+                            <p class="card-text">Твердопаливна котельня в м. Борислав</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#boryslavModal">
+                                Дізнатись більше
+                            </button>
+                        </div>
                     </div>
-                  </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="boryslavModal" tabindex="-1" aria-labelledby="boryslavModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h3 class="modal-title" id="exampleModalLabel">КЗ ЛОР Бориславська ЗСШ І-ІІІ ступенів</h3>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    Ктельню змонтовано та здано в експлуатацію у січні 2020 року на площах існуючої газової котельні.
+                                    Споживач – Бориславська санаторна школа І-ІІІ ступенів
+                                </p> 
+                                <table>
+                                    <tr>
+                                        <td>Загальна потужність</td> 
+                                        <td>1000 кВт</td>
+                                    </tr>
+                                    <tr>   
+                                         <td>Котли:</td> 
+                                        <td>- BRS 200 comfort BM, Україна - BRS 800 comfort BM, Україна</td>
+                                    </tr>     
+                                    <tr>
+                                        <td>Паливо:</td> 
+                                        <td>дрова, брикет.</td>
+                                    </tr>
+                                </table>        
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card ol-12 col-sm-12 col-md-6 col-lg-6">
+                        <img src="img/sokilnyky.jpg" class="card-img-top" alt="сокільники">
+                        <div class="card-body">
+                            <h3 class="card-title">КЗ ЛОР ЛОШВД</h3>
+                            <p class="card-text">Твердопаливна котельня у с. Сокільники</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sokilnykyModal">
+                                Дізнатись більше
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="sokilnykyModal" tabindex="-1" aria-labelledby="sokilnykyModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h3 class="modal-title" id="exampleModalLabel">КЗ ЛОР ЛОШВД</h3>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    Котельню змонтовано та здано в експлуатацію у грудні 2018 року на площах існуючої газової котельні.
+                                    Споживач – Львівський обласний шкірно-венерологічний диспансер.
+                                </p>
+                                <table>
+                                    <tr>
+                                        <td>Загальна потужність</td> 
+                                        <td>400 кВт</td>
+                                    </tr> 
+                                    <tr>   
+                                        <td>Котли:</td> 
+                                        <td>- BRS 300 comfort BM, Україна - BRS 100 comfort BM, Україна</td>
+                                    </tr>
+                                    <tr>     
+                                        <td>Паливо:</td> 
+                                        <td>дрова, брикет</td>
+                                    </tr>
+                                </table>    
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
             </div>    
         </article>  
    </main>

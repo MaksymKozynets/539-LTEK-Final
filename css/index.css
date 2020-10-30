@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&display=swap');
+
+:root {
+    --main-color: black;
+    --block-color: white;
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+header .logo {
+    justify-content: center;
+    padding: 20px;
+}
+
+header .menu-items {
+    flex: 1;
+    justify-content: space-around;
+}
+
+header .menu-items a {
+    display: block;
+    text-decoration: none;
+    color: var(--main-color);
+    border: 1px solid transparent;
+    padding: 5px;
+}
+
+.baner {
+    position: relative;
+    display: flex;
+}
+.block-text {
+    position: absolute;
+    bottom: 300px;
+    left: 100px;
+    background-color: var(--block-color);
+    padding: 20px;
+
+}
+
+main .about-us {
+display: grid;
+grid-template-columns: 1fr 1fr;
+padding-top: 90px;
+grid-gap: 5px;
+
+}
+
+.about-us img {
+    width: 100%;
+}
+
+
+@media (min-width:760px) {
+    header .header-nav{
+        display: flex;
+        justify-content: space-around;
+    }
+    header .menu-items {
+        display: flex;
+        align-items: center;
+    }
+}
+@media (min-width:660px) {
+    .project-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+    }
+}    

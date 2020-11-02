@@ -201,14 +201,14 @@
 <form class="text-center border border-light p-5" action="https://formspree.io/xjvanzgj" method="post">
 
     <!-- Name -->
-        <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+        <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name" name="name" required>
     <!-- Email -->
-    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail" name="e-mail" required>
     <!--Phone-->
-    <input type="phone" id="defaultContactFormPhone" class="form-control mb-4" placeholder="Phone">
+    <input type="phone" id="defaultContactFormPhone" class="form-control mb-4" placeholder="Phone" name="phone" required>
     <!-- Message -->
     <div class="form-group">
-        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message" name="massage" required></textarea>
     </div>
     <!-- Send button -->
     <button class="btn btn-info btn-block" type="submit">Send</button>

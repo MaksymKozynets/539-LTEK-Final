@@ -77,7 +77,7 @@ main .projects {
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: rgb(76, 160, 76);
+    background-color: rgb(160, 223, 160);
 }
 
 footer .link {

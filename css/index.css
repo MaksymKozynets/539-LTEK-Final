@@ -59,14 +59,31 @@ main .projects {
     display: flex;
     flex-direction: column;
 }
+.projects #projects h2 {
+    justify-self: center;
+    align-self: center;
+}
 .projects .card-body  button  {
     align-self: flex-end;
 }
 .contacts {
     padding-top: 90px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-column-align: center;
+
 }
 
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(76, 160, 76);
+}
+
+footer .link {
+    display: grid;
+grid-template-rows: 1fr 1fr 1fr;
+}
 @media (min-width:760px) {
     header .header-nav{
         display: flex;

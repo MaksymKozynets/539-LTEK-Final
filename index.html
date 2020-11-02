@@ -172,10 +172,12 @@
             <h2>Зв'язок</h2>
             <p>+380 32 297 11 47 lvivtekom@gmail.com</p>
     <!--Map-->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1079.5494850523044!2d24.060836368935476!3d49.81314062040623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae8040be5b4b1%3A0x17933a76e7e76fe6!2z0YPQuy4g0JfQtdC70ZHQvdCw0Y8sIDE0OQ!5e0!3m2!1sru!2sua!4v1602496177119!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1079.5494850523044!2d24.060836368935476!3d49.81314062040623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae8040be5b4b1%3A0x17933a76e7e76fe6!2z0YPQuy4g0JfQtdC70ZHQvdCw0Y8sIDE0OQ!5e0!3m2!1sru!2sua!4v1602496177119!5m2!1sru!2sua" width="400" height="250" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
     <!--Form-->
+        
         <div class="form">
+            <!--
             <form action="https://formspree.io/xjvanzgj" method="post">
                 <label id="email">Ваше повне ім'я*:
                     <input type="text" placeholder="Ваше ім'я" name="user name" required>
@@ -187,36 +189,57 @@
                     <input type="email" placeholder="Ваш Email" name="user email" required>
                 </label><br>
                 <label>Ваше повідомлення:
-                    <input type="text" placeholder="Напишіть Ваше повідомлення" name="textarea" required>
+                    <input type="text" placeholder="Напишіть Ваше повідомлення" rows="3" name="textarea" required>
                 </label><br>
                 <label>
                     <input type="submit">
                 </label> 
-            </form>       
+            </form>  
+            <div>
+            -->
+                <!-- Default form contact -->
+<form class="text-center border border-light p-5" action="https://formspree.io/xjvanzgj" method="post">
+
+    <!-- Name -->
+        <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+    <!-- Email -->
+    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+    <!--Phone-->
+    <input type="phone" id="defaultContactFormPhone" class="form-control mb-4" placeholder="Phone">
+    <!-- Message -->
+    <div class="form-group">
+        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+    </div>
+    <!-- Send button -->
+    <button class="btn btn-info btn-block" type="submit">Send</button>
+
+</form>
+<!-- Default form contact -->
+            </div>     
         </div>
     </div>
 </main>
 <hr>
 <footer>
-<!--Block ltek-->
-<div>
-    <img src="img/logosmal.png" alt="маленьке лого">
-    <p>Енергетична незалежність від природного газу</p>
-</div>
-<!--Block Nav-->
-<div>
-    <nav>
-        <a href="#about-us">Про нас</a> 
-        <a href="#projects">Проекти</a> 
-        <a href="#contacts">Контакти</a> 
-    </nav>
-</div>
-<!--Block Social-->
-<div>
-    <a href="https://www.facebook.com/LTEK-%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0-%D1%82%D0%B5%D0%BF%D0%BB%D0%BE%D0%B5%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D1%87%D0%BD%D0%B0-%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D1%96%D1%8F-985039358266284"><img src="img/facelogo.png" alt="facebook"></a>
-    <a href="https://www.instagram.com/"><img src="img/instalogo.png" alt="instagram"></a>
-    <a href="https://www.youtube.com./"><img src="img/youtubelogo.png" alt="youtube"></a> 
-</div>
+    <!--Block ltek-->
+    <div>
+        <img src="img/logosmal.png" alt="маленьке лого">
+        <p>Енергетична незалежність від природного газу</p>
+    </div>
+    <!--Block Nav-->
+    <div class="link">
+        <nav>
+            <a href="#about-us">Про нас</a> 
+            <a href="#projects">Проекти</a> 
+            <a href="#contacts">Контакти</a> 
+        </nav>
+    </div>
+    <!--Block Social-->
+    <div class="social">
+        <a href="https://www.facebook.com/LTEK-%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0-%D1%82%D0%B5%D0%BF%D0%BB%D0%BE%D0%B5%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D1%87%D0%BD%D0%B0-%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D1%96%D1%8F-985039358266284"><img src="img/facelogo.png" alt="facebook"></a>
+        <a href="https://www.instagram.com/"><img src="img/instalogo.png" alt="instagram"></a>
+        <a href="https://www.youtube.com./"><img src="img/youtubelogo.png" alt="youtube"></a> 
+    </div>
 </footer>
 
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

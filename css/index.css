@@ -55,6 +55,22 @@ grid-gap: 5px;
     width: 100%;
 }
 
+/* Countdown*/
+ .countdown {
+    display: inline;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(160, 223, 160);
+
+}
+
+main .countdown .countdown-items p {
+    display: inline;
+    font-size: 40px;
+    margin-top: 0px;
+  }
+
 main .projects {
     display: flex;
     flex-direction: column;

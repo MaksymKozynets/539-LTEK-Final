@@ -136,7 +136,7 @@ background-color:#4CAF50;
     -ms-grid-column-align: center;
 
 }
-
+/*
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -147,6 +147,68 @@ footer .link {
     display: grid;
 grid-template-rows: 1fr 1fr 1fr;
 }
+*/
+
+footer {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+    padding: 20px 0;
+    box-sizing: border-box;
+    background-color: #4CAF50;
+}
+
+.inner-footer {
+    display: block;
+    margin: 0 auto;
+    width: max-content;
+    height: 100%;
+}
+
+.inner-footer .logo-container {
+    width: 35%;
+    float: left;
+    height: 100%;
+    display: block;
+    margin-left: 20px;
+}
+
+.inner-footer .link-container {
+    width: calc(32.5 - 20px);
+    margin-right: 10px;
+    float: left;
+    height: 100%;
+}
+.inner-footer .link-container:last-child{
+    margin-right: 0;
+}
+.inner-footer .link-container a {
+    font-size: 18px;
+    color: white;
+    display: block;
+    font-weight: 200;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.inner-footer .social-container {
+    width: calc(32.5 - 20px);
+    margin-left: 100px;
+    float: left;
+    height: 100%;
+}
+
+.inner-footer .social-container a {   
+    display: block;
+    font-weight: 200;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+
 @media (min-width:760px) {
     header .header-nav{
         display: flex;
